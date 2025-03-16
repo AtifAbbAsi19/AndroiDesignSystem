@@ -38,3 +38,33 @@ The system is divided into four modules:
 ✅  **Reusable UI Components**: Custom buttons, text styles, loaders, etc.
 ✅  **Token-Based Theming**: Color, typography, and dimensions are centralized and scalable.
 ✅  **.aar Distribution**: Both design-system and design-system-token are distributed via .aar for easy consumption.
+
+##📌 **Final Token Flow**
+
+┌────────────────────────────┐
+│  Main Application          │
+│  - Uses AppTheme()         │
+│  - Calls ThemeSwitcher()   │
+└────────────────────────────┘
+           ▲
+           │
+┌──────────────────────────────┐
+│  Theme Provider              │
+│  - Provides Dynamic Theme    │
+│  - Uses TokenProviderFactory │
+└──────────────────────────────┘
+           ▲
+           │
+┌───────────────────────────┐
+│  Design System (.aar)     │
+│  - Uses UI Components     │
+│  - Fetches Token Values   │
+└───────────────────────────┘
+           ▲
+           │
+┌──────────────────────────────┐
+│  Design System Tokens (.aar) │
+│  - Provides Tokens via .aar  │
+└──────────────────────────────┘
+
+
