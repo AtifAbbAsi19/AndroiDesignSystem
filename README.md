@@ -85,3 +85,32 @@ Integrate into the Main App (app)
 
 Consume .aar files
 Use AppTheme for dynamic theme switching
+
+
+
+
+📦 android-design-system
+ ├── 📁 design-system-token         # Stores design tokens (.aar file)
+ │   ├── 📁 color
+ │   ├── 📁 dimensions
+ │   ├── 📁 fonts
+ │   ├── 📁 typography
+ │   └── 📝 build.gradle
+ ├── 📁 design-system               # Contains UI components (.aar file)
+ │   ├── 📁 components
+ │   ├── 📁 themes
+ │   ├── 📁 utils
+ │   └── 📝 build.gradle
+ ├── 📁 theme-provider              # Manages dynamic themes
+ │   ├── 📁 token-mapper
+ │   ├── 📁 theme-switching
+ │   └── 📝 build.gradle
+ ├── 📁 app                         # Main application consuming the design system
+ │   ├── 📁 ui
+ │   ├── 📁 viewmodel
+ │   ├── 📁 data
+ │   └── 📝 build.gradle
+ ├── 📝 settings.gradle
+ ├── 📝 README.md                   # Project Documentation
+ └── 📝 LICENSE
+
