@@ -32,9 +32,9 @@ The system is divided into four modules:
 
 
 🛠️ Key Features
-✅ Modular Architecture: Clean separation between tokens, UI, theming, and the app.
-✅ Dynamic Theme Switching: Supports light & dark mode without app restart.
-✅ Brand-Based Theming: Allows multiple brands via flavors.
-✅ Reusable UI Components: Custom buttons, text styles, loaders, etc.
-✅ Token-Based Theming: Color, typography, and dimensions are centralized and scalable.
-✅ .aar Distribution: Both design-system and design-system-token are distributed via .aar for easy consumption.
+✅ **Modular Architecture: Clean separation between tokens, UI, theming, and the app.
+✅ **Dynamic Theme Switching: Supports light & dark mode without app restart.
+✅ **Brand-Based Theming: Allows multiple brands via flavors.
+✅ **Reusable UI Components: Custom buttons, text styles, loaders, etc.
+✅ **Token-Based Theming: Color, typography, and dimensions are centralized and scalable.
+✅ **.aar Distribution: Both design-system and design-system-token are distributed via .aar for easy consumption.
