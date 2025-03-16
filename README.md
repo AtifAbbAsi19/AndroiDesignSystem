@@ -67,4 +67,21 @@ The system is divided into four modules:
 │  - Provides Tokens via .aar  │
 └──────────────────────────────┘
 
+##🛠 **Implementation Plan**
+Create Token Module (design-system-token)
 
+Define tokens (colors, dimensions, typography, fonts)
+Support multiple flavors
+Generate .aar
+Create UI Components Module (design-system)
+
+Consume .aar from design-system-token
+Implement AppLoader using mapped token values
+Create Theme Provider (theme-provider)
+
+Provide LightTokensMapper & DarkTokensMapper
+Support dynamic theme switching
+Integrate into the Main App (app)
+
+Consume .aar files
+Use AppTheme for dynamic theme switching
