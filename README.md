@@ -31,7 +31,7 @@ The system is divided into four modules:
     └───────────────────────────┘         └──────────────────────────────┘
 
 
-🛠️ Key Features
+## 🛠️ Key Features
 ✅ **Modular Architecture: Clean separation between tokens, UI, theming, and the app.
 ✅ **Dynamic Theme Switching: Supports light & dark mode without app restart.
 ✅ **Brand-Based Theming: Allows multiple brands via flavors.
